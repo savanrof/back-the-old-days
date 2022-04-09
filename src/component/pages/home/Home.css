@@ -6,6 +6,10 @@
   object-fit: fill;
 }
 
+.section-items {
+  overflow: hidden;
+}
+
 .section-items img{
   width: 405px;
   height: 618px;
@@ -17,11 +21,17 @@
 } */
 
 .section-items .overlay:hover {
+  z-index: 1;
   opacity: 1;
+  cursor: pointer;
 }
 
-.section-items .overlay:hover + img{
+.section-items:hover img {
   transform: scale(1.07);
+}
+
+.section-items:hover .details {
+  display: none;
 }
 
 .overlay {
@@ -55,6 +65,41 @@
   left: 0;
   padding: 20px;
 }
+
+.ant-carousel .slick-arrow::before {
+  display: none;
+}
+
+.ant-carousel .slick-prev, 
+.ant-carousel .slick-next {
+  position: absolute !important;
+  font-size: 40px !important;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--white);
+  height: 60px;
+  width: 60px;
+  box-shadow:  0 10px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  z-index: 2 !important;
+}
+
+.ant-carousel .slick-prev:hover, 
+.ant-carousel .slick-next:hover {
+  background-color: var(--white);
+}
+
+.ant-carousel .slick-prev:hover svg, 
+.ant-carousel .slick-next:hover svg {
+  color: var(--blue-primary) !important;
+}
+
+.ant-carousel .slick-prev svg, 
+.ant-carousel .slick-next svg {
+  color: var(--carousel-button) !important;
+  
+}
+
 
 .title {
   text-transform: uppercase;
@@ -141,3 +186,48 @@ li {
   width: 667px;
 }
 
+/* Stay in touch */
+.stay-in-touch-section {
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dumb-div {
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#stay-in-touch-img {
+  height: 327px;
+  width: 600px;
+}
+
+.stay-in-touch-title h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.stay-in-touch-section h2, p,
+.stay-in-touch-form label {
+  color: var(--background-primary);
+}
+
+.stay-in-touch-form label {
+  font-weight: 600;
+}
+
+/* Footer */
+.logo {
+  font-size: 15px;
+  color: var(--white);
+  font-weight: 900;
+  letter-spacing: 1px;
+}

@@ -31,22 +31,64 @@ const TelevisionSection = () => {
                         {...settings}
                     >
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={Dragons} alt="Dragons - The nine realms" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up" data-aos-delay="50">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={FastAndFurious} alt="Fast And Furious" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up" data-aos-delay="100">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={Trolls} alt="Trolls TrollsTopia" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={Madagasca} alt="Madagasca: A little wild" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={GoDogGo} alt="Go, Dog.Go!" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={ZenkoGo} alt="Team Zenko go" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                     </Carousel>
                 </Col>

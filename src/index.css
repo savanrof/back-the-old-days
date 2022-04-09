@@ -5,6 +5,9 @@
   --white: #ffff;
   --unselected: #0551a8;
   --selected: #4c8dff;
+  --menu-unselected: hsla(0, 0%, 100%, .5);
+  --blue-primary: #1890ff;
+  --carousel-button: #055ebb;
 }
 
 body {

@@ -5,8 +5,9 @@ import Home from "./component/pages/home/Home";
 import AppHeader from './common/AppHeader/AppHeader';
 
 import { Layout,  } from "antd";
+import AppFooter from './common/AppFooter/AppFooter';
 
-const { Header, Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <Content>
         <Home />
       </Content>
+      <Footer>
+        <AppFooter/>
+      </Footer>
     </Layout>
 
   );

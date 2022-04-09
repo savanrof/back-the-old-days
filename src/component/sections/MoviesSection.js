@@ -41,19 +41,54 @@ const MoviesSection = () => {
                             </div>
                         </div>
                         <div className="section-items" data-aos="fade-up" data-aos-delay="50">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={TheBadGuysImg} alt="The Bad Guys" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up" data-aos-delay="100">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={BossBaby2Img} alt="Boss Baby 2" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={AbominableImg} alt="Abominable" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={TrollsWorldTourImg} alt="Trolls World Tour" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                         <div className="section-items" data-aos="fade-up">
+                        <div className="overlay">
+                                <span>see more</span>
+                            </div>
                             <img src={Croods2Img} alt="Croods" />
+                            <div className="details">
+                                <p className="title">Puss in Boots: The Last Wish</p>
+                                <p className="subhead">In Theaters September 23, 2022</p>
+                            </div>
                         </div>
                     </Carousel>
                 </Col>

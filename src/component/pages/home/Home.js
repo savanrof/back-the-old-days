@@ -10,10 +10,11 @@ import TelevisionSection from "../../sections/TelevisionSection";
 import AboutSection from "../../sections/AboutSection";
 
 import "./Home.css";
+import StayInTouch from "../../sections/StayInTouch";
 
 
 const contentStyle = {
-    height: "860px",
+    height: '100%',
     color: '#fff',
     lineHeight: '160px',
     textAlign: 'center',
@@ -64,16 +65,16 @@ const Home = () => {
                         height="872px"
                     />
                 </div> */}
-                        <div>
+                        <div className="dumb-div">
                             <h3 style={contentStyle}>1</h3>
                         </div>
-                        <div>
+                        <div className="dumb-div">
                             <h3 style={contentStyle}>2</h3>
                         </div>
-                        <div>
+                        <div className="dumb-div">
                             <h3 style={contentStyle}>3</h3>
                         </div>
-                        <div>
+                        <div className="dumb-div">
                             <h3 style={contentStyle}>4</h3>
                         </div>
                     </Carousel>
@@ -88,7 +89,9 @@ const Home = () => {
 
             {/* ABOUT SECTION */}
             <AboutSection/>
-
+            
+            {/* STAY IN TOUCH SECTION */}
+            <StayInTouch/>
         </div>
     )
 }
