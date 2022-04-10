@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Carousel, Row, Col } from "antd";
 
 import Campus from "../../static/images/about-section/about-creative-haven.jpg";
@@ -9,6 +9,14 @@ import Tech from "../../static/images/about-section/about-tech.jpg";
 const AboutSection = () => {
 
     const sliderRef = useRef();
+    const initButton = useRef();
+
+    useEffect(() => {
+        // initButton.current.click();
+        // console.log(initButton.current);
+        // document.querySelector('div.ant-row.ant-row-center > nav > ul > li:nth-child(2) > button').click();
+    }, [])
+
 
     return (
         <div>
@@ -31,6 +39,7 @@ const AboutSection = () => {
                                 </li>
                                 <li>
                                     <button className="about-trigger-button" 
+                                    autoFocus
                                     onClick={() => {
                                         sliderRef.current?.goTo(3)
                                     }}>
