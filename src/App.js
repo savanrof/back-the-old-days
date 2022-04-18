@@ -1,11 +1,11 @@
-import React from 'react';
+import { Layout } from "antd";
 import "antd/dist/antd.css";
-import './App.css';
+import React from "react";
+import "./App.css";
+import AppFooter from "./common/AppFooter/AppFooter";
+import AppHeader from "./common/AppHeader/AppHeader";
 import Home from "./component/pages/home/Home";
-import AppHeader from './common/AppHeader/AppHeader';
-
-import { Layout,  } from "antd";
-import AppFooter from './common/AppFooter/AppFooter';
+import LayoutSideBar from "./component/sidebar";
 
 const { Header, Content, Footer } = Layout;
 
@@ -15,14 +15,16 @@ function App() {
       <Header>
         <AppHeader />
       </Header>
-      <Content>
-        <Home />
-      </Content>
+      <Layout>
+        <Content>
+          <Home />
+        </Content>
+        <LayoutSideBar />
+      </Layout>
       <Footer>
-        <AppFooter/>
+        <AppFooter />
       </Footer>
     </Layout>
-
   );
 }
 
