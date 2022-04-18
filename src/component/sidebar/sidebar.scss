@@ -1,0 +1,51 @@
+.layout-sidebar {
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+
+  //   height: 100vh;
+  //   z-index: 1;
+
+  .ant-menu-submenu {
+    width: 100%;
+  }
+
+  .togge-slider-btn {
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    transform: translate(-110%, -50%);
+    transition: all linear 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    border-radius: 4px;
+    aspect-ratio: 1;
+
+    background-color: #001529;
+  }
+
+  .togge-slider-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .ant-menu-sub {
+    background-color: #001529 !important;
+  }
+
+  .ant-layout-sider-trigger {
+    display: none;
+  }
+
+  .side-bar-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 75px;
+  }
+}
