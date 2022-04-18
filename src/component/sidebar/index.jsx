@@ -100,7 +100,9 @@ const LayoutSideBar = (props) => {
             >
               {menu.children.map((subItem, subIndex) => {
                 return (
-                  <Menu.Item key={`${index}-${subIndex}`}>{subItem}</Menu.Item>
+                  <Menu.Item key={`${index}-${subIndex}`}>
+                    {subItem.toUpperCase()}
+                  </Menu.Item>
                 );
               })}
             </Menu.SubMenu>
