@@ -10,10 +10,10 @@
   overflow: hidden;
 }
 
-.section-items img{
+.section-items img {
   width: 405px;
   height: 618px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 /* .section-items .overlay:hover:hover .details {
@@ -72,7 +72,7 @@
   display: none;
 }
 
-.ant-carousel .slick-prev, 
+.ant-carousel .slick-prev,
 .ant-carousel .slick-next {
   position: absolute !important;
   font-size: 40px !important;
@@ -81,40 +81,38 @@
   background-color: var(--white);
   height: 60px;
   width: 60px;
-  box-shadow:  0 10px rgb(0 0 0 / 20%);
+  box-shadow: 0 10px rgb(0 0 0 / 20%);
   -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 20%);
   z-index: 2 !important;
 }
 
-.ant-carousel .slick-prev:hover, 
+.ant-carousel .slick-prev:hover,
 .ant-carousel .slick-next:hover {
   background-color: var(--white);
 }
 
-.ant-carousel .slick-prev:hover svg, 
+.ant-carousel .slick-prev:hover svg,
 .ant-carousel .slick-next:hover svg {
   color: var(--blue-primary) !important;
 }
 
-.ant-carousel .slick-prev svg, 
+.ant-carousel .slick-prev svg,
 .ant-carousel .slick-next svg {
   color: var(--carousel-button) !important;
-  
 }
-
 
 .title {
   text-transform: uppercase;
   font-size: 15px;
   line-height: 1.2;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
   color: var(--white);
 }
 
 .subhead {
   font-size: 11px;
   line-height: 1.2;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   color: var(--white);
   margin-top: 5px;
 }
@@ -171,7 +169,7 @@ li {
   cursor: pointer;
 }
 
-.about-trigger-button:focus {     
+.about-trigger-button:focus {
   color: var(--selected);
   border-bottom: 2px solid var(--selected);
   opacity: 1;
@@ -198,12 +196,14 @@ li {
   background-color: var(--white);
 }
 
+.main-slider {
+  /* padding-top: 43px; */
+  padding-top: 50px;
+}
+
 .dumb-div {
-  height: 860px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 524px;
+  width: 1500px !important;
 }
 
 #stay-in-touch-img {
@@ -211,20 +211,36 @@ li {
   width: 600px;
 }
 
-.stay-in-touch-title h2{
+.stay-in-touch-title h2 {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 1px;
 }
 
-.stay-in-touch-section h2, p,
+.stay-in-touch-section h2,
+p,
 .stay-in-touch-form label {
   color: var(--background-primary);
 }
 
 .stay-in-touch-form label {
   font-weight: 600;
+}
+
+/* Staff Section */
+.staff-section {
+  height: 700px;
+  margin-top: 120px;
+}
+
+.staff-section .ant-row {
+  margin-top: 20px;
+}
+
+.staff-section img {
+  height: 300px;
+  width: 300px;
 }
 
 /* Footer */
