@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2983f13.css",
+    "main.js": "/static/js/main.337d780f.js",
+    "static/media/about-creative-haven.jpg": "/static/media/about-creative-haven.0a7c1687279a06c3cd0d.jpg",
+    "static/media/about-movies.jpg": "/static/media/about-movies.9535a9b222ef06e75a2d.jpg",
+    "static/media/abominable-keyart.jpg": "/static/media/abominable-keyart.177445c092ffad54f4e7.jpg",
+    "static/media/fast-and-furious.jpg": "/static/media/fast-and-furious.d4d7e4ff4117b8dc22f3.jpg",
+    "static/media/dragons.jpg": "/static/media/dragons.50efcf0a776ea2edad0d.jpg",
+    "static/media/trolls.jpg": "/static/media/trolls.2f3e9562babb2da92201.jpg",
+    "static/media/go-dog-go.jpg": "/static/media/go-dog-go.ace00ce4f2ff9e6a94f1.jpg",
+    "static/media/twt-key-art-no-text.jpg": "/static/media/twt-key-art-no-text.b0ad40b7dc65b384ba58.jpg",
+    "static/media/madagasca.jpg": "/static/media/madagasca.fd5d20efdb585aefd8bb.jpg",
+    "static/media/zenko-go.jpg": "/static/media/zenko-go.0d9f7718ae82fc6feed5.jpg",
+    "static/media/about-tv.jpg": "/static/media/about-tv.d05b9703d26009022c8d.jpg",
+    "static/media/signup-trolls.jpg": "/static/media/signup-trolls.45b3d797c7740d429e5b.jpg",
+    "static/media/puss-in-boots-the-last-wish-key-art.jpg": "/static/media/puss-in-boots-the-last-wish-key-art.585678fcb25aa93e9c02.jpg",
+    "static/media/about-tech.jpg": "/static/media/about-tech.4bd34bdadd2d980bf9c4.jpg",
+    "static/media/croods-2-key-art-v3.jpg": "/static/media/croods-2-key-art-v3.7ae5c0e5a8a5e92cd5b6.jpg",
+    "static/media/the-bad-guys-key-art.jpg": "/static/media/the-bad-guys-key-art.3790b6a62263df583027.jpg",
+    "static/media/boss-baby-2-pc-keyart.jpg": "/static/media/boss-baby-2-pc-keyart.94bff3bf3d0684d881c8.jpg",
+    "index.html": "/index.html",
+    "main.c2983f13.css.map": "/static/css/main.c2983f13.css.map",
+    "main.337d780f.js.map": "/static/js/main.337d780f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2983f13.css",
+    "static/js/main.337d780f.js"
+  ]
+}
