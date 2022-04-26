@@ -1,0 +1,65 @@
+.ant-layout-header {
+  height: 62px !important;
+  background: var(--white) !important;
+  position: fixed;
+  width: 100%;
+  box-shadow:  0 10px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  z-index: 999;
+}
+
+.header-nav ul {
+  display: inline;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav p {
+  color: var(--background-primary);
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.header-nav li {
+  margin: auto 15px;
+  text-align: center;
+}
+
+.contact-nav a, .contact-nav a:hover, .contact-nav a:focus, .contact-nav a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-nav span {
+  color: var(--unselected);
+  margin: 0 20px;
+}
+
+.contact-nav span:hover {
+  color: var(--blue-primary);
+}
+
+.header-nav .header-nav-item {
+  text-transform: uppercase;
+  color: var(--background-primary);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  width: 90px;
+  height: 74%;
+ 
+}
+
+.header-nav .header-nav-item:hover {
+  color: var(--blue-primary);
+  border-bottom: 3px solid var(--blue-primary);
+  cursor: pointer;
+}
+
+#menu-button {
+  font-size: 120%;
+}

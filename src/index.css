@@ -1,0 +1,29 @@
+:root {
+  --primary: #ffff;
+  --background-primary: #052c6f;
+  --title-color: #052c6f;
+  --white: #ffff;
+  --unselected: #0551a8;
+  --selected: #4c8dff;
+  --menu-unselected: hsla(0, 0%, 100%, .5);
+  --blue-primary: #1890ff;
+  --carousel-button: #055ebb;
+}
+
+*,*:focus,*:hover{
+  outline:none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

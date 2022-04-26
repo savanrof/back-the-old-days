@@ -1,0 +1,236 @@
+.slick-list {
+  margin-top: 21px !important;
+}
+
+.ant-carousel video {
+  object-fit: fill;
+}
+
+.section-items {
+  overflow: hidden;
+}
+
+.section-items img{
+  width: 405px;
+  height: 618px;
+  transition: transform .2s;
+}
+
+/* .section-items .overlay:hover:hover .details {
+  opacity: 0;
+} */
+
+.section-items .overlay:hover,
+.section-items:hover,
+.section-items:hover .overlay {
+  z-index: 1;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.section-items:hover img {
+  transform: scale(1.07);
+}
+
+.section-items:hover .details {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay span {
+  color: var(--white);
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.3em;
+}
+
+.details {
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.ant-carousel .slick-arrow::before {
+  display: none;
+}
+
+.ant-carousel .slick-prev, 
+.ant-carousel .slick-next {
+  position: absolute !important;
+  font-size: 40px !important;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--white);
+  height: 60px;
+  width: 60px;
+  box-shadow:  0 10px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  z-index: 2 !important;
+}
+
+.ant-carousel .slick-prev:hover, 
+.ant-carousel .slick-next:hover {
+  background-color: var(--white);
+}
+
+.ant-carousel .slick-prev:hover svg, 
+.ant-carousel .slick-next:hover svg {
+  color: var(--blue-primary) !important;
+}
+
+.ant-carousel .slick-prev svg, 
+.ant-carousel .slick-next svg {
+  color: var(--carousel-button) !important;
+  
+}
+
+
+.title {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: .03em;
+  color: var(--white);
+}
+
+.subhead {
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  color: var(--white);
+  margin-top: 5px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: var(--title-color);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.about-section {
+  margin-top: 120px;
+  height: 837px;
+  background-color: var(--background-primary);
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 110px;
+  text-align: center;
+  font-size: 60px;
+  color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+.about-trigger-button {
+  background: none;
+  color: var(--white);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--unselected);
+  opacity: 0.6;
+  height: 50px;
+  width: 93px;
+}
+
+.about-trigger-button:hover:not(:focus) {
+  opacity: 1;
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+.about-trigger-button:focus {     
+  color: var(--selected);
+  border-bottom: 2px solid var(--selected);
+  opacity: 1;
+}
+
+.about-section-item-carousel {
+  margin-top: 57px;
+  height: 400px;
+  width: 776px !important;
+}
+
+.about-section-item-carousel img {
+  padding: 0 55px;
+  width: 667px;
+}
+
+/* Stay in touch */
+.stay-in-touch-section {
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.dumb-div {
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#stay-in-touch-img {
+  height: 327px;
+  width: 600px;
+}
+
+.stay-in-touch-title h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.stay-in-touch-section h2, p,
+.stay-in-touch-form label {
+  color: var(--background-primary);
+}
+
+.stay-in-touch-form label {
+  font-weight: 600;
+}
+
+/* Footer */
+.logo {
+  font-size: 15px;
+  color: var(--white);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
